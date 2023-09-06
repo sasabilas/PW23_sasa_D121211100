@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border-collapse: collapse;
+      border: 1px solid black;
+    }
+    th,
+    td {
+      padding: 5px;
+    }
+  </style>
+  <body>
+    <form action="/" name="form">
+      <table>
+        <tr>
+          <td>
+            <label for="text">Text:</label>
+          </td>
+          <td>
+            <input type="text" name="text" id="text" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="password">Password:</label>
+          </td>
+          <td>
+            <input type="password" name="password" id="password" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="Radio1">Radio 1</label>
+            <input type="radio" name="Radio" id="Radio1" />
+            <label for="Radio2">Radio 2</label>
+            <input type="radio" name="Radio" id="Radio2" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="checkbox1">Checkbox 1</label>
+            <input type="checkbox" name="checkbox" id="checkbox1" />
+            <label for="checkbox2">Checkbox 2</label>
+            <input type="checkbox" name="checkbox" id="checkbox2" />
+          </td>
+        </tr>
+        <tr>
+          <td>Combo Box:</td>
+          <td>
+            <select title="select" name="option" id="">
+              <option value="">Option 1</option>
+              <option value="">Option 2</option>
+              <option value="">Option 3</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="textarea">Textarea:</label>
+          </td>
+          <td>
+            <textarea name="textarea" id="textarea" cols="20" rows="10"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <th colspan="2">
+            <button type="button" name="button" id="button">Button</button>
+          </th>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
